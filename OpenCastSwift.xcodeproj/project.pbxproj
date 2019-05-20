@@ -96,7 +96,7 @@
 		020C21AC200EE20D006E53CA /* DeviceConnectionChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceConnectionChannel.swift; sourceTree = "<group>"; };
 		020D54DF200EBA7A00CCA1B5 /* DeviceAuthChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAuthChannel.swift; sourceTree = "<group>"; };
 		024CB2EC2005A43D00FF73EE /* AppAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAvailability.swift; sourceTree = "<group>"; };
-		0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultizoneControlChannel.swift; sourceTree = "<group>"; };
+		0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = MultizoneControlChannel.swift; sourceTree = "<group>"; tabWidth = 2; };
 		0252C2B520113B84002AE6A2 /* CastMultizoneStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMultizoneStatus.swift; sourceTree = "<group>"; };
 		0252C2B720113D7B002AE6A2 /* CastMultizoneDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMultizoneDevice.swift; sourceTree = "<group>"; };
 		02618DCD2008289E0074AD87 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -412,6 +412,7 @@
 					02618DCC2008289E0074AD87 = {
 						CreatedOnToolsVersion = 9.2;
 						DevelopmentTeam = 7XLNECBC46;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					02618DF120082EA90074AD87 = {
@@ -432,6 +433,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -596,7 +598,7 @@
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -628,7 +630,7 @@
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -660,7 +662,7 @@
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
@@ -692,7 +694,7 @@
 				PRODUCT_NAME = OpenCastSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 4.2;
@@ -838,7 +840,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -865,7 +867,7 @@
 				PRODUCT_NAME = OpenCastSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
