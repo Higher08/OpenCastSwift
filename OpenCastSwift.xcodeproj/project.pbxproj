@@ -9,20 +9,15 @@
 /* Begin PBXBuildFile section */
 		020C21AD200EE20D006E53CA /* DeviceConnectionChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020C21AC200EE20D006E53CA /* DeviceConnectionChannel.swift */; };
 		020C21AE200EE3A6006E53CA /* DeviceConnectionChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020C21AC200EE20D006E53CA /* DeviceConnectionChannel.swift */; };
-		020C21AF200EE3A6006E53CA /* DeviceConnectionChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020C21AC200EE20D006E53CA /* DeviceConnectionChannel.swift */; };
 		020D54E0200EBA7A00CCA1B5 /* DeviceAuthChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D54DF200EBA7A00CCA1B5 /* DeviceAuthChannel.swift */; };
 		024CB2ED2005A43D00FF73EE /* AppAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CB2EC2005A43D00FF73EE /* AppAvailability.swift */; };
 		0252C2B120113404002AE6A2 /* RequestSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1EB2010059200CF01E1 /* RequestSink.swift */; };
-		0252C2B220113404002AE6A2 /* RequestSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1EB2010059200CF01E1 /* RequestSink.swift */; };
 		0252C2B420113526002AE6A2 /* MultizoneControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */; };
 		0252C2B620113B84002AE6A2 /* CastMultizoneStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B520113B84002AE6A2 /* CastMultizoneStatus.swift */; };
 		0252C2B820113D7B002AE6A2 /* CastMultizoneDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B720113D7B002AE6A2 /* CastMultizoneDevice.swift */; };
 		0252C2B920113FF4002AE6A2 /* CastMultizoneStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B520113B84002AE6A2 /* CastMultizoneStatus.swift */; };
 		0252C2BA20113FF4002AE6A2 /* CastMultizoneDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B720113D7B002AE6A2 /* CastMultizoneDevice.swift */; };
 		0252C2BB20113FF4002AE6A2 /* MultizoneControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */; };
-		0252C2BC20113FF5002AE6A2 /* CastMultizoneStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B520113B84002AE6A2 /* CastMultizoneStatus.swift */; };
-		0252C2BD20113FF5002AE6A2 /* CastMultizoneDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B720113D7B002AE6A2 /* CastMultizoneDevice.swift */; };
-		0252C2BE20113FF5002AE6A2 /* MultizoneControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */; };
 		02618DD8200829360074AD87 /* CASTV2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225C1DBACFE4004B5762 /* CASTV2Protocol.swift */; };
 		02618DD92008293B0074AD87 /* CastDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD274EAF1DB7EF7F00428530 /* CastDevice.swift */; };
 		02618DDA2008293B0074AD87 /* CastStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225E1DBAD013004B5762 /* CastStatus.swift */; };
@@ -37,51 +32,29 @@
 		02618DE920082A210074AD87 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618DE720082A200074AD87 /* SwiftProtobuf.framework */; };
 		02618DEB20082A940074AD87 /* ChromeCastCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02618DEC20082A940074AD87 /* ChromeCastCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02618DFA20082EB80074AD87 /* ChromeCastCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02618DFB20082EBD0074AD87 /* CastDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD274EAF1DB7EF7F00428530 /* CastDevice.swift */; };
-		02618DFC20082EBD0074AD87 /* CastStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225E1DBAD013004B5762 /* CastStatus.swift */; };
-		02618DFD20082EBD0074AD87 /* CastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522601DBAD02D004B5762 /* CastApp.swift */; };
-		02618DFE20082EBD0074AD87 /* AppAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CB2EC2005A43D00FF73EE /* AppAvailability.swift */; };
-		02618DFF20082EBD0074AD87 /* CastMediaStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522651DBAD077004B5762 /* CastMediaStatus.swift */; };
-		02618E0020082EBD0074AD87 /* CastMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522671DBAD9B9004B5762 /* CastMedia.swift */; };
-		02618E0120082EC00074AD87 /* CASTV2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225C1DBACFE4004B5762 /* CASTV2Protocol.swift */; };
-		02618E0220082EC30074AD87 /* cast_channel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289007A20054B970024D80F /* cast_channel.pb.swift */; };
-		02618E0620082EDE0074AD87 /* CastClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC239471DB83E0200066B2F /* CastClient.swift */; };
-		02618E0C20082F620074AD87 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618E0A20082F620074AD87 /* SwiftProtobuf.framework */; };
-		02618E0D20082F620074AD87 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618E0B20082F620074AD87 /* SwiftyJSON.framework */; };
 		027E35B8200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */; };
 		027E35B9200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */; };
-		027E35BA200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */; };
 		027E35BB200E8A1400A863E6 /* CastChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B6200E8A1400A863E6 /* CastChannel.swift */; };
 		027E35BC200E8A1400A863E6 /* CastChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B6200E8A1400A863E6 /* CastChannel.swift */; };
-		027E35BD200E8A1400A863E6 /* CastChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B6200E8A1400A863E6 /* CastChannel.swift */; };
 		027E35BE200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */; };
 		027E35BF200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */; };
-		027E35C0200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */; };
-		027E35C2200E8AEA00A863E6 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027E35C1200E8AEA00A863E6 /* Result.framework */; };
 		027E35C5200E933800A863E6 /* CastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C4200E933800A863E6 /* CastMessage.swift */; };
 		027E35C6200E933800A863E6 /* CastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C4200E933800A863E6 /* CastMessage.swift */; };
-		027E35C7200E933800A863E6 /* CastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C4200E933800A863E6 /* CastMessage.swift */; };
 		027E35C9200EA7D800A863E6 /* MediaControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C8200EA7D800A863E6 /* MediaControlChannel.swift */; };
 		027E35CA200EA7D800A863E6 /* MediaControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C8200EA7D800A863E6 /* MediaControlChannel.swift */; };
-		027E35CB200EA7D800A863E6 /* MediaControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C8200EA7D800A863E6 /* MediaControlChannel.swift */; };
 		027E35CF200EAF0E00A863E6 /* DeviceSetupChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35CE200EAF0E00A863E6 /* DeviceSetupChannel.swift */; };
 		027E35D0200EAF0E00A863E6 /* DeviceSetupChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35CE200EAF0E00A863E6 /* DeviceSetupChannel.swift */; };
-		027E35D1200EAF0E00A863E6 /* DeviceSetupChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35CE200EAF0E00A863E6 /* DeviceSetupChannel.swift */; };
 		027E35D3200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */; };
 		027E35D4200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */; };
-		027E35D5200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */; };
 		028733AD200949E00015266E /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733A7200932B90015266E /* CastV2PlatformReader.swift */; };
 		0289007720054A960024D80F /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 0289007620054A960024D80F /* Cartfile */; };
 		0289007920054B870024D80F /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0289007820054B870024D80F /* SwiftProtobuf.framework */; };
 		0289007B20054B970024D80F /* cast_channel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289007A20054B970024D80F /* cast_channel.pb.swift */; };
 		0289007D200551B90024D80F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0289007C200551B80024D80F /* SwiftyJSON.framework */; };
 		0298FB952009955600A0B016 /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733A7200932B90015266E /* CastV2PlatformReader.swift */; };
-		0298FB962009955600A0B016 /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733A7200932B90015266E /* CastV2PlatformReader.swift */; };
 		02F6F1EC2010059200CF01E1 /* RequestSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1EB2010059200CF01E1 /* RequestSink.swift */; };
 		02F6F1EE2010062300CF01E1 /* Channelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1ED2010062300CF01E1 /* Channelable.swift */; };
 		02F6F1EF2010066F00CF01E1 /* Channelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1ED2010062300CF01E1 /* Channelable.swift */; };
-		02F6F1F02010066F00CF01E1 /* Channelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1ED2010062300CF01E1 /* Channelable.swift */; };
 		DD15225D1DBACFE4004B5762 /* CASTV2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225C1DBACFE4004B5762 /* CASTV2Protocol.swift */; };
 		DD15225F1DBAD013004B5762 /* CastStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225E1DBAD013004B5762 /* CastStatus.swift */; };
 		DD1522611DBAD02D004B5762 /* CastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522601DBAD02D004B5762 /* CastApp.swift */; };
@@ -102,7 +75,6 @@
 		02618DCD2008289E0074AD87 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02618DE620082A200074AD87 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		02618DE720082A200074AD87 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/iOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
-		02618DF220082EA90074AD87 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02618E0A20082F620074AD87 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/watchOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
 		02618E0B20082F620074AD87 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/watchOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverControlChannel.swift; sourceTree = "<group>"; };
@@ -144,20 +116,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02618DEE20082EA90074AD87 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02618E0C20082F620074AD87 /* SwiftProtobuf.framework in Frameworks */,
-				02618E0D20082F620074AD87 /* SwiftyJSON.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DD674A341DB7E83400E1FC24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				027E35C2200E8AEA00A863E6 /* Result.framework in Frameworks */,
 				0289007D200551B90024D80F /* SwiftyJSON.framework in Frameworks */,
 				0289007920054B870024D80F /* SwiftProtobuf.framework in Frameworks */,
 			);
@@ -269,7 +231,6 @@
 			children = (
 				DD674A381DB7E83500E1FC24 /* OpenCastSwift.framework */,
 				02618DCD2008289E0074AD87 /* OpenCastSwift.framework */,
-				02618DF220082EA90074AD87 /* OpenCastSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -326,14 +287,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02618DEF20082EA90074AD87 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02618DFA20082EB80074AD87 /* ChromeCastCore.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DD674A351DB7E83400E1FC24 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,24 +314,6 @@
 			name = "OpenCastSwift iOS";
 			productName = "ChromeCastCore-iOS";
 			productReference = 02618DCD2008289E0074AD87 /* OpenCastSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		02618DF120082EA90074AD87 /* OpenCastSwift watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02618DF720082EA90074AD87 /* Build configuration list for PBXNativeTarget "OpenCastSwift watchOS" */;
-			buildPhases = (
-				02618DED20082EA90074AD87 /* Sources */,
-				02618DEE20082EA90074AD87 /* Frameworks */,
-				02618DEF20082EA90074AD87 /* Headers */,
-				02618DF020082EA90074AD87 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "OpenCastSwift watchOS";
-			productName = "ChromeCastCore watchOS";
-			productReference = 02618DF220082EA90074AD87 /* OpenCastSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD674A371DB7E83400E1FC24 /* OpenCastSwift Mac */ = {
@@ -415,11 +350,6 @@
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
-					02618DF120082EA90074AD87 = {
-						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 7XLNECBC46;
-						ProvisioningStyle = Automatic;
-					};
 					DD674A371DB7E83400E1FC24 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 7XLNECBC46;
@@ -444,20 +374,12 @@
 			targets = (
 				DD674A371DB7E83400E1FC24 /* OpenCastSwift Mac */,
 				02618DCC2008289E0074AD87 /* OpenCastSwift iOS */,
-				02618DF120082EA90074AD87 /* OpenCastSwift watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		02618DCB2008289E0074AD87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02618DF020082EA90074AD87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -503,36 +425,6 @@
 				02618DDD2008293B0074AD87 /* CastMediaStatus.swift in Sources */,
 				027E35CA200EA7D800A863E6 /* MediaControlChannel.swift in Sources */,
 				02618DDE2008293B0074AD87 /* CastMedia.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02618DED20082EA90074AD87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0252C2BD20113FF5002AE6A2 /* CastMultizoneDevice.swift in Sources */,
-				027E35CB200EA7D800A863E6 /* MediaControlChannel.swift in Sources */,
-				027E35BA200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */,
-				02618DFE20082EBD0074AD87 /* AppAvailability.swift in Sources */,
-				027E35C0200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */,
-				02618E0620082EDE0074AD87 /* CastClient.swift in Sources */,
-				02618DFC20082EBD0074AD87 /* CastStatus.swift in Sources */,
-				027E35D5200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */,
-				02618DFF20082EBD0074AD87 /* CastMediaStatus.swift in Sources */,
-				02F6F1F02010066F00CF01E1 /* Channelable.swift in Sources */,
-				0298FB962009955600A0B016 /* CastV2PlatformReader.swift in Sources */,
-				0252C2BE20113FF5002AE6A2 /* MultizoneControlChannel.swift in Sources */,
-				0252C2B220113404002AE6A2 /* RequestSink.swift in Sources */,
-				02618E0220082EC30074AD87 /* cast_channel.pb.swift in Sources */,
-				02618DFD20082EBD0074AD87 /* CastApp.swift in Sources */,
-				027E35BD200E8A1400A863E6 /* CastChannel.swift in Sources */,
-				027E35C7200E933800A863E6 /* CastMessage.swift in Sources */,
-				0252C2BC20113FF5002AE6A2 /* CastMultizoneStatus.swift in Sources */,
-				02618E0120082EC00074AD87 /* CASTV2Protocol.swift in Sources */,
-				027E35D1200EAF0E00A863E6 /* DeviceSetupChannel.swift in Sources */,
-				020C21AF200EE3A6006E53CA /* DeviceConnectionChannel.swift in Sources */,
-				02618DFB20082EBD0074AD87 /* CastDevice.swift in Sources */,
-				02618E0020082EBD0074AD87 /* CastMedia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,71 +525,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		02618DF820082EA90074AD87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7XLNECBC46;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.ChromeCastCore-watchOS";
-				PRODUCT_NAME = OpenCastSwift;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Debug;
-		};
-		02618DF920082EA90074AD87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7XLNECBC46;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.ChromeCastCore-watchOS";
-				PRODUCT_NAME = OpenCastSwift;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
 			name = Release;
 		};
@@ -879,15 +706,6 @@
 			buildConfigurations = (
 				02618DD32008289E0074AD87 /* Debug */,
 				02618DD42008289E0074AD87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		02618DF720082EA90074AD87 /* Build configuration list for PBXNativeTarget "OpenCastSwift watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02618DF820082EA90074AD87 /* Debug */,
-				02618DF920082EA90074AD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
