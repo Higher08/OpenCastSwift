@@ -12,7 +12,7 @@ let package = Package(
             targets: ["OpenCastSwift iOS"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-protobuf", .upToNextMajor(from: "1.14.0")),
+        .package(name: "SwiftProtobuf", url: "https://github.com/apple/swift-protobuf", .upToNextMajor(from: "1.14.0")),
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON", .upToNextMajor(from: "5.0.0")),
     ],
     targets: [
