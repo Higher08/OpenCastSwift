@@ -19,7 +19,7 @@ let package = Package(
         .target(
             name: "OpenCastSwift iOS",
             dependencies: [
-                "swift-protobuf",
+                "SwiftProtobuf",
                 "SwiftyJSON"
             ],
             path: "Source"
