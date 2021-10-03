@@ -5,11 +5,12 @@ let package = Package(
     name: "OpenCastSwift",
     platforms: [
         .iOS(.v12),
+        .macOS(.v10_14),
     ],
     products: [
         .library(
-            name: "OpenCastSwift iOS",
-            targets: ["OpenCastSwift iOS"]),
+            name: "OpenCastSwift",
+            targets: ["OpenCastSwift"]),
     ],
     dependencies: [
         .package(name: "SwiftProtobuf", url: "https://github.com/apple/swift-protobuf", .upToNextMajor(from: "1.14.0")),
@@ -17,7 +18,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "OpenCastSwift iOS",
+            name: "OpenCastSwift",
             dependencies: [
                 "SwiftProtobuf",
                 "SwiftyJSON"
